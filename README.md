@@ -26,11 +26,15 @@ Before running the project, ensure you have the following dependencies installed
 You can install the required library using pip:
 "pip install pycryptodome"
 
+---
+
 ## Module Overview
 - **keygen.py:** Responsible for generating a 256-bit AES encryption key.
 - **encryption.py:** Handles encryption and decryption of files using AES-CBC
 - **integrity_check.py:** Uses SHA-256 to verify file integrity by comparing the original file and the decrypted file
 - **main.py:** Primary script to execute the encryption/decryption operations and file integrity checks
+
+---
 
 ## Usage
 ### Encrypting a file
